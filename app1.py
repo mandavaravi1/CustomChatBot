@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import os
 
 #st.set_page_config(page_title="Chat with the Training docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-#openai.api_key = st.secrets['API_KEY']
+##status openai.api_key = st.secrets['API_KEY']
 openai.api_key = os.getenv('API_KEY')
 st.title("Chat with the Training docs 💬")
 
